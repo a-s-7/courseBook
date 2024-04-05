@@ -1,11 +1,11 @@
-package model.course;
+package model.stats;
 
-public class CourseStats {
+public class Statistics {
     private Integer courseCount;
     private Integer creditCount;
     private Integer average;
 
-    public CourseStats() {
+    public Statistics() {
         this.courseCount = 0;
         this.creditCount = 0;
         this.average = 0;

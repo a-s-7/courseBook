@@ -1,11 +1,11 @@
-package model.timeUnits;
+package model.time;
 
 import model.course.Course;
-import model.course.CourseStats;
+import model.stats.Statistics;
 
 import java.util.List;
 
 public class Term {
-    private CourseStats termStats;
+    private Statistics termStats;
     private List<Course> courses;
 }

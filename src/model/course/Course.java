@@ -1,6 +1,6 @@
 package model.course;
 
-import model.timeUnits.AcademicYear;
+import model.time.AcademicYear;
 
 public class Course {
     private String courseDepartment;

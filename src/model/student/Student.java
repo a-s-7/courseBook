@@ -1,7 +1,7 @@
 package model.student;
 
-import model.course.CourseStats;
-import model.timeUnits.AcademicYear;
+import model.stats.Statistics;
+import model.time.AcademicYear;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class Student {
     /*Academic Information*/
     private StudentAcademicInfo academicInfo;
     private List<AcademicYear> yearList;
-    private CourseStats cumulativeStats;
+    private Statistics cumulativeStats;
 
     public Student(StudentPersonalInfo personalInfo, StudentAcademicInfo academicInfo) {
         this.personalInfo = personalInfo;

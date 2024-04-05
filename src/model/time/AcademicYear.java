@@ -1,6 +1,6 @@
-package model.timeUnits;
+package model.time;
 
-import model.course.CourseStats;
+import model.stats.Statistics;
 
 import java.time.Year;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ public class AcademicYear {
     private Year calendarYear;
     private Integer yearLevel;
     private List<Term> terms;
-    private CourseStats yearStats;
+    private Statistics yearStats;
 
 
     public AcademicYear(int calendarYear, Integer yearLevel) {
@@ -19,7 +19,7 @@ public class AcademicYear {
         this.yearLevel = yearLevel;
 
         this.terms = new ArrayList<>(2);
-        this.yearStats = new CourseStats();
+        this.yearStats = new Statistics();
     }
 
     public int getCalendarYearValue() {
